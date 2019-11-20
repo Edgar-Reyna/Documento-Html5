@@ -196,7 +196,7 @@ Funciones **JS** en el mismo documento:
     </script>
 </head>
 <body>
-    saludar(edgar); <!-- Se llama a la funcion saludar y se envia el nombre-->
+    saludar(nombre1); <!-- Se llama a la funcion saludar y se envia el nombre-->
 </body>
 ```
 
@@ -208,7 +208,7 @@ Funciones **JS** en el mismo documento:
 </head>
 <body>
     <!-- Inicio del body-->
-    saludar(edgar) <!-- Se llama a la funcion saludar-->
+    saludar(nombre1) <!-- Se llama a la funcion saludar-->
 
 
     <!-- Final del body-->
@@ -226,6 +226,29 @@ Funciones **JS** en el mismo documento:
 ```
 ## Agregar scripts desde otro Documento
 
+Algunos agregan los scripts en el **HEAD**.
+
+```html
+<head>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    saludar(nombre1)
+</body>
+```
+
+Lo correcto es agregarlos al final del **BODY**.
+
+```html
+<head>
+    <!-- Sin scripts -->
+</head>
+<body>
+    saludar(nombre1)
+    <script src="scripts.js"></script>
+</body>
+```
+
 El archivo **scripts.js** contiene la funcion:
 
 ```javascript
@@ -237,28 +260,7 @@ El archivo **scripts.js** contiene la funcion:
        alert("hola "+ nombre);
     }
 ```
-Algunos agregan los scripts en el **head**.
 
-```html
-<head>
-    <script src="scripts.js"></script>
-</head>
-<body>
-    saludar(edgar)
-</body>
-```
-
-Lo correcto es agregarlos al final del **body**.
-
-```html
-<head>
-    <!-- Sin scripts -->
-</head>
-<body>
-    saludar(edgar)
-    <script src="scripts.js"></script>
-</body>
-```
 >**[Referencia Javascript](https://www.w3schools.com/js/ "Javascript")**
 
 ***
