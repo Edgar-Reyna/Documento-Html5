@@ -135,7 +135,7 @@
 
 # Estilos CSS
 
-## Estilos dentro de la etiqueta: style="propiedad:valor;"
+## Estilos dentro de la etiqueta con style="propiedad:valor;"
 
 ```html
 <label >Nombre, sin estilo</label>
@@ -175,3 +175,52 @@ Dentro del **Body** se define en la etiqueta el nombre de la clase que se va a m
 
 >**[Referencia CSS](https://www.w3schools.com/css/ "Propiedades CSS")**
 
+***
+
+# Agregando Funciones Javascript
+
+Funciones **JS** en el mismo documento:
+
+>Algunos ponen los script dentro del **HEAD**.
+
+```html
+<head>    
+    <script>
+        // la funcion recibe el nombre
+        function saludar(nombre1){ 
+            // se asigna el nombre a una variable
+            var nombre=nombre1;
+            //se concatena y se muestra el nombre en un mensaje
+            alert("hola "+ nombre);
+        }
+    </script>
+</head>
+<body>
+    saludar(edgar); <!-- Se llama a la funcion saludar y se envia el nombre-->
+</body>
+```
+
+>Lo correcto seria agregarlo al final del **Body** cuando se termina de cargar por completo el documento html.
+
+```html
+<head>    
+    <!-- Sin scripts-->
+</head>
+<body>
+    <!-- Inicio del body-->
+    saludar(edgar); <!-- Se llama a la funcion saludar-->
+
+
+    <!-- Final del body-->
+
+    <script>
+        // la funcion recibe el nombre
+        function saludar(nombre1){ 
+            // se asigna el nombre a una variable
+            var nombre=nombre1;
+            //se concatena y se muestra el nombre en un mensaje
+            alert("hola "+ nombre);
+        }
+    </script>
+</body>
+```
