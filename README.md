@@ -1,8 +1,8 @@
 # Guia Basica para crear Paginas WEB
 * [x] Estructura del documento html5
 * [x] Principales etiquetas
-* [x] Agregando estilos con CSS
-* [ ] Agregando funcionalidad con Javascript
+* [x] Agregando estilos CSS al documento html
+* [x] Agregando Javascript al documento html
 * [ ] Envio y recibo de datos entre paginas web
 * [ ] Bootstrap
 * [ ] DataTables
@@ -53,7 +53,7 @@
 
 ***
 
-# Etiquetas html
+# Principales Etiquetas html
 
 ### Label e Input
 ```html
@@ -200,7 +200,7 @@ Funciones **JS** en el mismo documento:
 </body>
 ```
 
->Lo correcto seria agregarlo al final del **Body** cuando se termina de cargar por completo el documento html.
+>Lo correcto es agregarlo al final del **Body** cuando se termina de cargar por completo el documento html.
 
 ```html
 <head>    
@@ -208,7 +208,7 @@ Funciones **JS** en el mismo documento:
 </head>
 <body>
     <!-- Inicio del body-->
-    saludar(edgar); <!-- Se llama a la funcion saludar-->
+    saludar(edgar) <!-- Se llama a la funcion saludar-->
 
 
     <!-- Final del body-->
@@ -224,3 +224,41 @@ Funciones **JS** en el mismo documento:
     </script>
 </body>
 ```
+## Agregar scripts desde otro Documento
+
+El archivo **scripts.js** contiene la funcion:
+
+```javascript
+    // la funcion recibe el nombre
+    function saludar(nombre1){ 
+       // se asigna el nombre a una variable
+       var nombre=nombre1;
+       //se concatena y se muestra el nombre en un mensaje
+       alert("hola "+ nombre);
+    }
+```
+Algunos agregan los scripts en el **head**.
+
+```html
+<head>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    saludar(edgar)
+</body>
+```
+
+Lo correcto es agregarlos al final del **body**.
+
+```html
+<head>
+    <!-- Sin scripts -->
+</head>
+<body>
+    saludar(edgar)
+    <script src="scripts.js"></script>
+</body>
+```
+>**[Referencia Javascript](https://www.w3schools.com/js/ "Javascript")**
+
+***
