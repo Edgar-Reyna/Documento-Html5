@@ -1,7 +1,7 @@
 # Guia Basica para crear Paginas WEB
 * [x] Estructura del documento html5
 * [x] Principales etiquetas
-* [ ] Agregando estilos con CSS
+* [x] Agregando estilos con CSS
 * [ ] Agregando funcionalidad con Javascript
 * [ ] Envio y recibo de datos entre paginas web
 * [ ] Bootstrap
