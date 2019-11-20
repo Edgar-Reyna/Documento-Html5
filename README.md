@@ -27,7 +27,7 @@
         <!-- Estilos CSS dentro del documento -->
         <style>
             /* estilos */
-            body{background-color:color;}
+            body{background-color:lightblue;}
         </style>
 
         <!-- Estilos CSS desde otro documento -->
