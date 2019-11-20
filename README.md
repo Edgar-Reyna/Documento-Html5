@@ -38,7 +38,7 @@
 
 ### Label e Input
 
-```
+```html
 <label>Nombre:</label> 
 <input type="text"  size="15"/>
 ```
@@ -47,7 +47,7 @@
 
 ### Checkbox y Radio
 
-```
+```html
 <input type="checkbox" checked/>Seleccionada
 <input type="checkbox" />Sin marcar
 <input type="radio" checked/>Seleccionada
@@ -57,7 +57,7 @@
 
 ### Select
 
-```
+```html
 <select>
     <option value="opcion 1">Opcion1
     <option value="opcion 2" selected>Opcion2
@@ -69,7 +69,7 @@
 
 ### Tablas
 
-```
+```html
 <table>
     <thead>
         <tr>
@@ -98,3 +98,8 @@
 |1|2|3|
 |4|5|6|
 
+### Textarea
+```html
+<textarea cols="50" rows="15">Contenido...</textarea>
+```
+![textarea](textarea.jpg "textarea")
