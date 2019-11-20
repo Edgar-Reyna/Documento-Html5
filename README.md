@@ -60,7 +60,7 @@
 <label>Nombre:</label> 
 <input type="text"  size="15"/>
 ```
-![Label Input](label.jpg "Label e Input")
+![Label Input](img/label.jpg "Label e Input")
 
 ### Checkbox y Radio
 ```html
@@ -70,7 +70,7 @@
 <input type="radio" checked/>Seleccionada
 <input type="radio"/>Sin marcar
 ```
-![Checkbox Radio](checkbox.jpg "Checkbox y Radio")
+![Checkbox Radio](img/checkbox.jpg "Checkbox y Radio")
 
 ### Select
 ```html
@@ -80,7 +80,7 @@
     <option value="opcion 3">Opcion3
 </select>
 ```
-![Select](select.jpg "Select")
+![Select](img/select.jpg "Select")
 
 
 ### Tablas
@@ -116,7 +116,7 @@
 ```html
 <textarea cols="50" rows="10">Contenido...</textarea>
 ```
-![textarea](textarea.jpg "textarea")
+![textarea](img/textarea.jpg "textarea")
 
 ### Formularios
 ```html
@@ -127,7 +127,7 @@
     <input type="submit" value="Aceptar"/>
 </form>
 ```
-![formulario](formulario.jpg "formulario")
+![formulario](img/formulario.jpg "formulario")
 
 >**[Referencia HTML](https://www.w3schools.com/html/default.asp "Etiquetas HTML")**
 
@@ -143,7 +143,7 @@
 <label style="color:yellow;">Nombre</label>
 <label style="color:coral;">Nombre</label>
 ```
-![estilos](estilos.jpg "Estilos")
+![estilos](img/estilos.jpg "Estilos")
 
 ## Estilos desde documento CSS.
 
@@ -151,7 +151,7 @@ En el **HEAD** se agrega la hoja de estilos:
 
 ```html
 <head>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 ```
 
@@ -171,7 +171,7 @@ Dentro del **Body** se define en la etiqueta el nombre de la clase que se va a m
     <label class="resaltado">Nombre</label>
 </body>    
 ```
-![estilos2](estilos2.jpg "estilos2")
+![estilos2](img/estilos2.jpg "estilos2")
 
 >**[Referencia CSS](https://www.w3schools.com/css/ "Propiedades CSS")**
 
@@ -230,7 +230,7 @@ Algunos agregan los scripts en el **HEAD**.
 
 ```html
 <head>
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     saludar(nombre1)
@@ -245,7 +245,7 @@ Lo correcto es agregarlos al final del **BODY**.
 </head>
 <body>
     saludar(nombre1)
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 ```
 
