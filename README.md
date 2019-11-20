@@ -30,3 +30,49 @@
     <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
+```
+
+***
+
+# Etiquetas html
+
+### <span style="color:orange;">Label e Input</span>
+
+```
+<label>Nombre:</label> 
+<input type="text"  size="15"/>
+```
+
+>Nombre: <input type="text" size="15"/>
+
+### <span style="color:orange;">Checkbox y Radio</span>
+
+```
+<input type="checkbox" checked/>Seleccionada
+<input type="checkbox" />Sin marcar
+<input type="radio" checked/>Seleccionada
+<input type="radio"/>Sin marcar
+```
+
+<input type="checkbox" checked/>Seleccionada
+
+<input type="checkbox" />Sin marcar
+
+<input type="radio" checked/>Seleccionada
+
+<input type="radio"/>Sin marcar
+
+### <span style="color:orange;">Select</span>
+
+```
+<select>
+    <option value="opcion 1">Opcion1
+    <option value="opcion 2" selected>Opcion2
+</select>
+```
+
+<select>
+    <option value="opcion 1">Opcion1
+    <option value="opcion 2" selected>Opcion2
+    <option value="opcion 3">Opcion3
+</select>
