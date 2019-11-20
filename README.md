@@ -43,7 +43,7 @@
 <input type="text"  size="15"/>
 ```
 
->Nombre: <input type="text" size="15"/>
+![Label Input](label.jpg "Label e Input")
 
 ### <span style="color:orange;">Checkbox y Radio</span>
 
@@ -53,14 +53,7 @@
 <input type="radio" checked/>Seleccionada
 <input type="radio"/>Sin marcar
 ```
-
-<input type="checkbox" checked/>Seleccionada
-
-<input type="checkbox" />Sin marcar
-
-<input type="radio" checked/>Seleccionada
-
-<input type="radio"/>Sin marcar
+![Checkbox Radio](checkbox.jpg "Checkbox y Radio")
 
 ### <span style="color:orange;">Select</span>
 
@@ -70,9 +63,5 @@
     <option value="opcion 2" selected>Opcion2
 </select>
 ```
+![Select](select.jpg "Select")
 
-<select>
-    <option value="opcion 1">Opcion1
-    <option value="opcion 2" selected>Opcion2
-    <option value="opcion 3">Opcion3
-</select>
