@@ -130,3 +130,43 @@
 ![formulario](formulario.jpg "formulario")
 
 ***
+
+# Estilos CSS
+
+## Estilos dentro de la etiqueta:
+
+```html
+<label >Nombre, sin estilo</label><br/>
+<label style="color:red;">Nombre</label><br/>
+<label style="color:yellow;">Nombre</label><br/>
+<label style="color:coral;">Nombre</label><br/>
+```
+![estilos](estilos.jpg "Estilos")
+
+## Estilos desde documento CSS.
+
+En el **HEAD** se agrega la hoja de estilos:
+
+```html
+<head>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+```
+
+Dentro de **estilos.css** se agregan las etiquetas con los nombres de las clases y se aplica el estilo con su propiedad y valor:
+
+```css
+label .resaltado{
+    background-color:yellow;
+    color:red;
+}
+```
+
+Dentro del **Body** se define en la etiqueta el nombre de la clase que se va a modificar el estilo:
+```html
+<body>
+    <label >Nombre, sin estilo</label><br/>
+    <label class="resaltado">Nombre</label><br/>
+</body>    
+```
+![estilos2](estilos2.jpg "estilos2")
