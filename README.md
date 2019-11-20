@@ -129,6 +129,8 @@
 ```
 ![formulario](formulario.jpg "formulario")
 
+>**[Referencia HTML](https://www.w3schools.com/html/default.asp "Etiquetas HTML")**
+
 ***
 
 # Estilos CSS
@@ -171,5 +173,5 @@ Dentro del **Body** se define en la etiqueta el nombre de la clase que se va a m
 ```
 ![estilos2](estilos2.jpg "estilos2")
 
->[Referencia CSS](https://www.w3schools.com/css/ "Propiedades CSS")
+>**[Referencia CSS](https://www.w3schools.com/css/ "Propiedades CSS")**
 
