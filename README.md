@@ -136,10 +136,10 @@
 ## Estilos dentro de la etiqueta:
 
 ```html
-<label >Nombre, sin estilo</label><br/>
-<label style="color:red;">Nombre</label><br/>
-<label style="color:yellow;">Nombre</label><br/>
-<label style="color:coral;">Nombre</label><br/>
+<label >Nombre, sin estilo</label>
+<label style="color:red;">Nombre</label>
+<label style="color:yellow;">Nombre</label>
+<label style="color:coral;">Nombre</label>
 ```
 ![estilos](estilos.jpg "Estilos")
 
@@ -165,8 +165,8 @@ label .resaltado{
 Dentro del **Body** se define en la etiqueta el nombre de la clase que se va a modificar el estilo:
 ```html
 <body>
-    <label >Nombre, sin estilo</label><br/>
-    <label class="resaltado">Nombre</label><br/>
+    <label >Nombre, sin estilo</label>
+    <label class="resaltado">Nombre</label>
 </body>    
 ```
 ![estilos2](estilos2.jpg "estilos2")
