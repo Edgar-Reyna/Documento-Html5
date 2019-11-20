@@ -1,5 +1,4 @@
 # Estructura documento HTML
-
 ```html
 <!DOCTYPE html>
 <html>
@@ -37,26 +36,23 @@
 # Etiquetas html
 
 ### Label e Input
-
 ```html
 <label>Nombre:</label> 
 <input type="text"  size="15"/>
 ```
-
 ![Label Input](label.jpg "Label e Input")
 
 ### Checkbox y Radio
-
 ```html
 <input type="checkbox" checked/>Seleccionada
 <input type="checkbox" />Sin marcar
+
 <input type="radio" checked/>Seleccionada
 <input type="radio"/>Sin marcar
 ```
 ![Checkbox Radio](checkbox.jpg "Checkbox y Radio")
 
 ### Select
-
 ```html
 <select>
     <option value="opcion 1">Opcion1
@@ -68,14 +64,13 @@
 
 
 ### Tablas
-
 ```html
 <table>
     <thead>
         <tr>
-            <th>Columna 1</th>
-            <th>Columna 2</th>
-            <th>Columna 3</th>
+            <th>Titulo Columna 1</th>
+            <th>Titulo Columna 2</th>
+            <th>Titulo Columna 3</th>
         </tr>
     </thead>
     <tbody>
@@ -92,8 +87,7 @@
     </tbody>
 </table>
 ```
-
-| Columna 1 | Columna 2 | Columna 3 |
+| Titulo Columna 1 | Titulo Columna 2 | Titulo Columna 3 |
 |:---:|:---:|:---:|
 |1|2|3|
 |4|5|6|
@@ -103,3 +97,15 @@
 <textarea cols="50" rows="15">Contenido...</textarea>
 ```
 ![textarea](textarea.jpg "textarea")
+
+### Formularios
+```html
+<form action="url documento, script, etc" method="POST o GET">
+    <label>Nombre:</label> <input type="text"/><br/><br/>
+    <label>Apellido:</label> <input type="text"/><br/><br/>
+    <label>Edad:</label> <input type="text"/><br/><br/>
+    <input type="submit" value="Aceptar"/>
+</form>
+```
+![formulario](formulario.jpg "formulario")
+
