@@ -114,7 +114,7 @@
 
 ### Textarea
 ```html
-<textarea cols="50" rows="15">Contenido...</textarea>
+<textarea cols="50" rows="10">Contenido...</textarea>
 ```
 ![textarea](textarea.jpg "textarea")
 
@@ -133,7 +133,7 @@
 
 # Estilos CSS
 
-## Estilos dentro de la etiqueta:
+## Estilos dentro de la etiqueta: style="propiedad:valor;"
 
 ```html
 <label >Nombre, sin estilo</label>
@@ -170,3 +170,6 @@ Dentro del **Body** se define en la etiqueta el nombre de la clase que se va a m
 </body>    
 ```
 ![estilos2](estilos2.jpg "estilos2")
+
+>[Referencia CSS](https://www.w3schools.com/css/ "Propiedades CSS")
+
