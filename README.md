@@ -2,12 +2,21 @@
 * [x] Estructura del documento html5
 * [x] Principales etiquetas
 * [ ] Agregando estilos con CSS
-* [ ] Agregando funcionalidad con scripts
+* [ ] Agregando funcionalidad con Javascript
 * [ ] Envio y recibo de datos entre paginas web
-* [ ] Conectar con Base de datos MySQL
+* [ ] Bootstrap
+* [ ] DataTables
+* [ ] Graficas Highcharts
+* [ ] Instalacion de Servidor Local (XAMPP)
+* [ ] Conectar con Base de datos MySQL, MariaDB
+* [ ] Crear Bases de Datos, Tablas
+* [ ] Consultas a Tablas Querys
 * [ ] Programacion PHP
 * [ ] CRUD PHP MySQL Servidor Local
-* [ ] ...
+* [ ] SPA con Angular, React, Vue
+* [ ] Reactive X RxJs
+* [ ] GraphQL
+* [ ] ... :smile: :+1:
 
 # Estructura documento HTML
 ```html
