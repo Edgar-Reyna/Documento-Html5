@@ -1,3 +1,14 @@
+# Guia Basica para crear Paginas WEB
+* [x]Estructura del documento html5
+* [x]Principales etiquetas
+* [ ]Agregando estilos con CSS
+* [ ]Agregando funcionalidad con scripts
+* [ ]Envio y recibo de datos entre paginas web
+* [ ]Conectar con Base de datos MySQL
+* [ ]Programacion PHP
+* [ ]CRUD PHP MySQL Servidor Local
+* [ ]...
+
 # Estructura documento HTML
 ```html
 <!DOCTYPE html>
@@ -109,3 +120,4 @@
 ```
 ![formulario](formulario.jpg "formulario")
 
+***
