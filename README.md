@@ -36,7 +36,7 @@
 
 # Etiquetas html
 
-### <span style="color:orange;">Label e Input</span>
+### Label e Input
 
 ```
 <label>Nombre:</label> 
@@ -45,7 +45,7 @@
 
 ![Label Input](label.jpg "Label e Input")
 
-### <span style="color:orange;">Checkbox y Radio</span>
+### Checkbox y Radio
 
 ```
 <input type="checkbox" checked/>Seleccionada
@@ -55,13 +55,46 @@
 ```
 ![Checkbox Radio](checkbox.jpg "Checkbox y Radio")
 
-### <span style="color:orange;">Select</span>
+### Select
 
 ```
 <select>
     <option value="opcion 1">Opcion1
     <option value="opcion 2" selected>Opcion2
+    <option value="opcion 3">Opcion3
 </select>
 ```
 ![Select](select.jpg "Select")
+
+
+### Tablas
+
+```
+<table>
+    <thead>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+| Columna 1 | Columna 2 | Columna 3 |
+|:---:|:---:|:---:|
+|1|2|3|
+|4|5|6|
 
